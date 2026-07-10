@@ -1,12 +1,23 @@
-# InvadingAliens
-## Descrizione 
-Questo è un gioco simile al noto Space Invaders, che utilizza il RetroGameFramework.
-- Per la documentazione del framework, fare riferimento al repository originale o alla cartella ```Documentation``` di questo.
-- Questo gioco può essere eseguito nativamente su sistemi Windows. Non è garantita la compatibilità tramite Wine, per MacOS o Linux.
+# InvadingAliens 
+(Passa a [🇮🇹Italiano](./README-IT.md))
 
-## Funzionamento
-  Il gioco inizia al momento del lancio. L'utente vedrà una navicella in basso, e dei nemici che compariranno dall'alto dello schermo, che si muoveranno verso la navicella. L'utente finale potrà sparare ai nemici e muoversi, ma non potrà allontanarsi dal bordo inferiore dello schermo. La difficoltà tende ad aumentare con il tempo, come progresso del giocatore. Il giocatore sarà in grado di mettere in pausa il gioco, oltre a muovere la navicella con le freccette e a sparare i proiettili.
+## Description
+This is a game which uses [RetroGameGramework](https://github.com/profGiovanniVolpintesta/RetroGameFramework), and it is similar to the well-known Space Invaders one.
+- For the Framework's documentation, refer to the relative [folder](./Documentation), or check the original project's README.md file.
+- This game can be run natively on Windows systems. Compatibility with MacOS or Linux via Wine is not guaranteed.
+
+## How the game works
+The game begins after the player chooses to start a new game.<br>
+At a first glance, the user will see a spaceship at the bottom, and some enemies that appear from the top. They will move towards the player's spaceship.<br>
+The player is able to move the spaceship and shoot the enemies, but cannot get out of the game field, which is the window.<br>
+The game's difficulty tends to increase every time a boss is killed. A boss spawns at the center of the field every 30 seconds, and its number of lives and speeds depends on the current level.<br>
+It is possible to pause the game with P, and quit with ESC. WASD keys are used for movement, and SPACE for shooting.<br><br>
 
 ![image](./Pictures/Concetto.png)
 
-In questa immagine, vengono rappresentati gli elementi e i movimenti nel gioco in maniera grossolana.
+In this picture, game elements and movements are represented in a rough way.<br>
+
+For further information about the game, head to the [Documentation](./Documentation/en/InvadingAliens-EN.md).
+
+## About
+This project is made by Chigo127-Edu and Ale-Cioffo, and is licensed under the GNU General Public License, version 3.<br>
